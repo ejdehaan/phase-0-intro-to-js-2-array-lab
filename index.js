@@ -1,4 +1,3 @@
-
 const cats = ["Milo", "Otis", "Garfield"]
 
 
@@ -35,17 +34,12 @@ function destructivelyAppendCat(name) {
 }
 
 
-destructivelyAppendCat("Ralph")
 //console.log(cats);
 
 
 function destructivelyPrependCat(name) {
     cats.unshift(name)
 }
-
-
-destructivelyPrependCat("Bob")
-//console.log(cats);
 
 
 function destructivelyRemoveLastCat() {
